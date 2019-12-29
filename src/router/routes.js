@@ -8,14 +8,6 @@ import Portfolio from "@/components/pages/Portfolio";
 
 Vue.use(VueRouter);
 
-// const routes = [
-//   { path: "/", name: "Home", component: Home },
-//   { path: "/about", name: "About", component: About },
-//   { path: "/skills", name: "Skills", component: Skills },
-//   { path: "/portfolio", name: "Portfolio", component: Portfolio },
-//   { path: "*", component: Home }
-// ];
-
 export default new VueRouter({
   mode: "history",
   routes: [
