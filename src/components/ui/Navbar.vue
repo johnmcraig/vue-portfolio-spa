@@ -2,7 +2,7 @@
   <div class="bg-primary navbar-dark text-white">
     <div class="container">
       <nav class="navbar navbar-expand-lg px-0 navbar-dark">
-        <a class="navbar-brand" href="/"><span class="fas fa-home"></span> Home</a>
+        <router-link to="/" class="navbar-brand"><span class="fas fa-home"></span> Home</router-link>
 
         <button
           class="navbar-toggler"
@@ -16,17 +16,17 @@
         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="/about" class="nav-link text-white"><span class="fas fa-address-book"></span> About</a>
+              <router-link to="/about" class="nav-link text-white"><span class="fas fa-address-book"></span> About</router-link>
             </li>
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="/skills" class="nav-link text-white"><span class="fas fa-terminal"></span> Skills</a>
+              <router-link to="/skills" class="nav-link text-white"><span class="fas fa-terminal"></span> Skills</router-link>
             </li>
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="/portfolio" class="nav-link text-white"><span class="fas fa-briefcase"></span> Portfolio</a>
+              <router-link to="/portfolio" class="nav-link text-white"><span class="fas fa-briefcase"></span> Portfolio</router-link>
             </li>
           </ul>
         </div>

@@ -23,12 +23,13 @@
             <p>Use the navigation links to find what you are looking for.</p>
             <p>
               I would suggest if you are looking for my list of projects to use the
-              <a class="btn btn-info btn-sm" href="/portfolio">Portfolio</a> page.
+              <router-link to="/portfolio" class="btn btn-info btn-sm">Portfolio</router-link> page.
             </p>
-            <p>Or maybe the tools I use with the <a class="btn btn-info btn-sm" href="/skills">Skills</a> page.</p>
+            <p>Or maybe the tools I use with the 
+              <router-link to="/skills" class="btn btn-info btn-sm">Skills</router-link> page.</p>
             <p>
               Or if you want to contact me for work or hire, go to the
-              <a class="btn btn-info btn-sm" href="/about">About</a> page.
+              <router-link to="/about" class="btn btn-info btn-sm">About</router-link> page.
             </p>
           
         </div>
