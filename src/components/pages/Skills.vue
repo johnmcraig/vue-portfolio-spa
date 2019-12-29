@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="jumbotron bg-light mb-0 radius-0 text-center">
+    <div class="jumbotron jumbotron-fliud bg-light mb-0 radius-0 text-center">
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
-            <h1 class="display-4 mb-1">Skills &amp; Technologies</h1>
-            <span class="lead"> <i class="fas fa-laptop-code"></i> A list of tools and tech that I am skilled with</span>
+            <h1 class="display-4 mb-1">Skills &amp; Technology</h1>
+            <span class="lead"> <i class="fas fa-laptop-code"></i> A list of tools and tech that I am skilled with. A Resume of sorts</span>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@
         </p>
         <hr />
 
-        <h2> <span class="fas fa-server"></span> Databases</h2>
+        <h2> <span class="fas fa-database"></span> Databases</h2>
         <p>
           <ul>
             <li>Microsoft SQL Server 2016/2018</li>
