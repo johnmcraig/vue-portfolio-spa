@@ -1,33 +1,62 @@
 <template>
-  <footer class="navbar navbar-expand-lg fixed-bottom bg-dark pt-4 text-center">
-    <div class="container">
-      <ul class="list-unstyled list-inline text-center py-2">
-        <li class="list-inline-item">
-          <h5 class="mb-1">GitHub</h5>
-        </li>
-        <li>
-          <a href="#" class="btn btn-outline-white btn-rounded">Demo!</a>
-        </li>
-      </ul>
-    </div>
+  <footer class="footer">
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 py-3 text-light text-center">
+            <p>&copy; 2020. All rights reserved.</p>
+          </div>
 
-    <div class="footer-copyright text-center py-3">
-      &copy; 2020 Copyright:
-      <a href>John M. Craig</a>
+          <div class="col-md-6 py-3 text-light text-center">
+            <p>
+              Created By:
+              <a class="text-white" href="https://github.com/johnmcraig">John M. Craig</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'Footer'
+  name: "Footer"
 };
 </script>
 
 <style>
 footer {
-  bottom: 0;
-  width: 100%;
+  border: 0;
+  margin-top: 10%;
+  line-height: 13.8px;
+  position: static;
+  font: inherit;
+  font-size: 100%;
+  z-index: auto;
+  display: block;
+  float: none;
+  box-sizing: border-box;
+}
+
+.footer {
   color: #fff;
+  background-color: #303238;
+  text-align: center;
+  padding: 1rem;
+}
+.col-md-6 {
+  max-width: 50%;
+}
+.copyright {
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: inherit;
 }
 </style>
