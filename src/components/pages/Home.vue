@@ -31,10 +31,9 @@
               Or if you want to contact me for work or hire, go to the
               <router-link to="/about" class="btn btn-info btn-sm">About</router-link> page.
             </p>
-          
         </div>
       </div>
-    
+      <br/>
   </div>
 </template>
 
