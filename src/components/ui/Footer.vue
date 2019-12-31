@@ -23,25 +23,16 @@ export default {
 
 <style>
 footer {
-  font: inherit;
-  font-size: 100%;
-  display: flex;
   color: #fff;
   background-color: #303238;
-  text-align: center;
   padding: 1rem;
 }
 .col-md-6 {
   max-width: 50%;
 }
-.copyright {
-  margin-bottom: 0;
-}
-
 p {
   margin-top: 0;
 }
-
 a {
   color: inherit;
 }
