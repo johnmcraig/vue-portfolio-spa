@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="jumbotron bg-light mb-0 radius-0 text-center">
+    <div class="jumbotron jumbotron-fliud bg-light mb-0 radius-0 text-center">
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
@@ -14,26 +14,28 @@
       </div>
     </div>
 
-    
-      <div class="container py-5">
-        <div style="padding: 0.5rem;">
-          
-            <h2>Hello, and welcome to my site!</h2>
-            <p>It isn't much to look at, but it is responsive (using Bootstrap 4.1 &amp; Vue.js), fast, and gets the to the point.</p>
-            <p>Use the navigation links to find what you are looking for.</p>
-            <p>
-              I would suggest if you are looking for my list of projects to use the
-              <router-link to="/portfolio" class="btn btn-info btn-sm">Portfolio</router-link> page.
-            </p>
-            <p>Or maybe the tools I use with the 
-              <router-link to="/skills" class="btn btn-info btn-sm">Skills</router-link> page.</p>
-            <p>
-              Or if you want to contact me for work or hire, go to the
-              <router-link to="/about" class="btn btn-info btn-sm">About</router-link> page.
-            </p>
+    <div class="container py-5">
+      <div class="row" style="padding: 0.5rem;">
+        <div class="col-xl-12">
+          <h2 class="mb-1" style="text-align: center;">Hello, and welcome to my portfolio site!</h2>
+          <p>Hi, I'm John. A full-stack web developer and Software Developer using C#/ASP.Net Core and .Net Core as my prefered stack.</p>
+          <p>Use the navigation links to find what you are looking for.</p>
+          <p>
+            I would suggest if you are looking for my list of projects to use the
+            <router-link to="/portfolio" class="btn btn-info btn-sm">Portfolio</router-link> page.
+          </p>
+          <p>
+            Or maybe the tools I use with the
+            <router-link to="/skills" class="btn btn-info btn-sm">Technology</router-link> page.
+          </p>
+          <p>
+            Or if you want to contact me for work or hire, go to the
+            <router-link to="/contact" class="btn btn-info btn-sm">Contact</router-link> page.
+          </p>
         </div>
       </div>
-      <br/>
+    </div>
+    <br />
   </div>
 </template>
 
@@ -44,9 +46,9 @@ export default {
 </script>
 
 <style scoped>
-.container {
+/* .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-template-rows: repeat(2, 100px);
-}
+} */
 </style>
