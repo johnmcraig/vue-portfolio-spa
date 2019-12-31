@@ -4,8 +4,8 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
-            <h1 class="display-4 mb-1">Skills &amp; Technology</h1>
-            <span class="lead"> <i class="fas fa-laptop-code"></i> A list of tools and tech that I am skilled with. A Resume of sorts</span>
+            <h1 class="display-4 mb-1">Technology &amp; Skills</h1>
+            <span class="lead"> <i class="fas fa-laptop-code"></i> A list of tools and tech that I am skilled with.</span>
           </div>
         </div>
       </div>
