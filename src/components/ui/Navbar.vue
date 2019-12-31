@@ -16,12 +16,12 @@
         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link to="/about" class="nav-link text-white"><span class="fas fa-address-book"></span> About</router-link>
+              <router-link to="/contact" class="nav-link text-white"><span class="fas fa-address-book"></span> Contact</router-link>
             </li>
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link to="/skills" class="nav-link text-white"><span class="fas fa-terminal"></span> Skills</router-link>
+              <router-link to="/skills" class="nav-link text-white"><span class="fas fa-terminal"></span> Technology</router-link>
             </li>
           </ul>
           <ul class="navbar-nav">
