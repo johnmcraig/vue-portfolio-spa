@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container py-5">
       <div style="padding: 0.5rem;">
         <h3> <span class=""><i class="fas fa-id-card"></i></span> Contect Info</h3>
         <p><i class="fas fa-envelope"></i> Email: john.craig@ccalearn.tech</p>
