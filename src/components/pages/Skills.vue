@@ -11,8 +11,7 @@
       </div>
     </div>
 
-    <div class="container py-5">
-      <div style="padding: 0.5rem;">
+    <div class="container-fluid mt-1 mb-auto py-5" style="padding: 0.5rem;margin: 2.5rem;">
         <h2> <span class="fas fa-code"></span> Programming Languages</h2>
         <p>
           <ul>
@@ -80,9 +79,7 @@
             <li>Postman</li>
           </ul>
         </p>   
-      </div>
-    </div>
-    
+      </div>    
     <br>
   </div>
 </template>
