@@ -23,9 +23,19 @@ export default {
 #app {
   height: 100%;
 }
-html,
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-  height: 100%;
-  width: 100%;
+  margin-bottom: 60px;
+}
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  /* width: 100%; */
+  /* Okay  */
+  /* height: 60px; */
+  /* line-height: 60px; */
 }
 </style>

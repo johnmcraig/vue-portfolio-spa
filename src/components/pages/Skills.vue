@@ -1,17 +1,17 @@
 <template>
   <div>
-    <div class="jumbotron jumbotron-fliud bg-light mb-0 radius-0 text-center">
+    <div class="jumbotron mb-0 radius-0 text-center">
       <div class="container">
         <div class="row">
-          <div class="col-xl-12">
-            <h1 class="display-4 mb-1">Technology &amp; Skills</h1>
-            <span class="lead"> <i class="fas fa-laptop-code"></i> A list of tools and tech that I am skilled with.</span>
+          <div class="col-xl-12 cold-md-6 col-sm-3">
+            <h1 class="display-4 mb-1">Technology &amp; Tools</h1>
+            <span class="lead"> A list of tech and tools that I primarily use</span>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid mt-1 mb-auto py-5" style="padding: 0.5rem;margin: 2.5rem;">
+    <div class="container mt-1 mb-auto py-5">
         <h2> <span class="fas fa-code"></span> Programming Languages</h2>
         <p>
           <ul>
@@ -38,13 +38,13 @@
         <h2> <span class="fas fa-terminal"></span> Frameworks &amp; Libraries</h2>
         <p>
           <ul>
-            <li>ASP.Net Core 2.0+ (Currently on 3.1)</li>
-            <li>Angular versions 4+</li>
+            <li>ASP.Net Core 2.0+</li>
+            <li>Angular versions 2+</li>
             <li>React.js</li>
-            <li>Vue.js version 2.5+</li>
+            <li>Vue.js 2+</li>
             <li>Node.js</li>
             <li>Django</li>
-            <li>Blazor server side with Razor components</li>
+            <li>Blazor</li>
           </ul>
         </p>
         <hr />
@@ -65,7 +65,7 @@
           <ul>
             <li>Azure</li>
             <li>AWS</li>
-            <li>Google Cloud</li>
+            <li>Google</li>
           </ul>
         </p>   
         <hr />
