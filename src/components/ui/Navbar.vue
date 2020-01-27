@@ -1,5 +1,5 @@
 <template>
-      <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-primary">
         <router-link to="/" class="navbar-brand"><span class="fas fa-home"></span> Home</router-link>
 
         <button

@@ -27,15 +27,5 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {
-  margin-bottom: 60px;
-}
-footer {
-  /* position: absolute; */
-  bottom: 0;
-  /* width: 100%; */
-  /* Okay  */
-  /* height: 60px; */
-  /* line-height: 60px; */
-}
+
 </style>
